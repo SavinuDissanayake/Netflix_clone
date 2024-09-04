@@ -1,0 +1,32 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  z-index: 1;
+  display: flex;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+  justify-content: space-between; /* this will justify the space between logos and move two items right next to eachother to opposite coners */
+  height: 30px;
+}
+
+.nav-logo {
+  position: fixed;
+  left: 0px;
+  padding-left: 20px;
+  width: 80px;
+  object-fit: contain;
+}
+
+.nav-avatar {
+  width: 30px;
+  position: fixed;
+  padding-right: 20px;
+  right: 0px;
+  object-fit: contain;
+}
+
+.nav_black {
+  background-color: #111;
+}
